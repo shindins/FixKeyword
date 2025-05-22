@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>__msvc_heap_algorithms.hpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+    <body onload="prettyPrint()">
+        <h4></h4>
+        <pre class="prettyprint lang-cpp linenums">
+// __msvc_heap_algorithms.hpp internal header
+
+// Copyright (c) Microsoft Corporation.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+
+#ifndef __MSVC_HEAP_ALGORITHMS_HPP
+#define __MSVC_HEAP_ALGORITHMS_HPP
+#include &lt;yvals_core.h&gt;
+#if _STL_COMPILER_PREPROCESSOR
+
+#include &lt;xutility&gt;
+
+#pragma pack(push, _CRT_PACKING)
+#pragma warning(push, _STL_WARNING_LEVEL)
+#pragma warning(disable : _STL_DISABLED_WARNINGS)
+_STL_DISABLE_CLANG_WARNINGS
+#pragma push_macro("new")
+#undef new
+
+_STD_BEGIN
+template &lt;class _RanIt, class _Ty, class _Pr&gt;
+_CONSTEXPR20 void _Push_heap_by_index(
+<span style = "background-color:#fdd">    _RanIt _First, _Iter_diff_t&lt;_RanIt&gt; _Hole, _Iter_diff_t&lt;_RanIt&gt; _Top, _Ty&amp;&amp; _Val, _Pr _Pred) {</span>
+    // percolate _Hole to _Top or where _Val belongs
+    using _Diff = _Iter_diff_t&lt;_RanIt&gt;;
+<span style = "background-color:#fdd">    for (_Diff _Idx                                                         = (_Hole - 1) &gt;&gt; 1; // shift for codegen
+        _Top &lt; _Hole &amp;&amp; _DEBUG_LT_PRED(_Pred, *(_First + _Idx), _Val); _Idx = (_Hole - 1) &gt;&gt; 1) { // shift for codegen</span>
+        // move _Hole up to parent
+<span style = "background-color:#fdd">        *(_First + _Hole) = _STD move(*(_First + _Idx));
+        _Hole             = _Idx;
+    }</span>
+
+<span style = "background-color:#fdd">    *(_First + _Hole) = _STD forward&lt;_Ty&gt;(_Val); // drop _Val into final hole
+}</span>
+
+_EXPORT_STD template &lt;class _RanIt, class _Pr&gt;
+_CONSTEXPR20 void push_heap(_RanIt _First, _RanIt _Last, _Pr _Pred) {
+    // push *(_Last - 1) onto heap at [_First, _Last - 1)
+    _STD _Adl_verify_range(_First, _Last);
+    const auto _UFirst = _STD _Get_unwrapped(_First);
+    auto _ULast        = _STD _Get_unwrapped(_Last);
+    using _Diff        = _Iter_diff_t&lt;_RanIt&gt;;
+    _Diff _Count       = _ULast - _UFirst;
+    if (2 &lt;= _Count) {
+        _Iter_value_t&lt;_RanIt&gt; _Val(_STD move(*--_ULast));
+        _STD _Push_heap_by_index(_UFirst, --_Count, _Diff(0), _STD move(_Val), _STD _Pass_fn(_Pred));
+    }
+}
+
+_EXPORT_STD template &lt;class _RanIt&gt;
+_CONSTEXPR20 void push_heap(_RanIt _First, _RanIt _Last) {
+    // push *(_Last - 1) onto heap at [_First, _Last - 1)
+    _STD push_heap(_First, _Last, less&lt;&gt;{});
+}
+
+template &lt;class _RanIt, class _Ty, class _Pr&gt;
+_CONSTEXPR20 void _Pop_heap_hole_by_index(
+<span style = "background-color:#fdd">    _RanIt _First, _Iter_diff_t&lt;_RanIt&gt; _Hole, _Iter_diff_t&lt;_RanIt&gt; _Bottom, _Ty&amp;&amp; _Val, _Pr _Pred) {</span>
+    // percolate _Hole to _Bottom, then push _Val
+    _STL_INTERNAL_CHECK(_Bottom &gt; 0);
+
+    using _Diff      = _Iter_diff_t&lt;_RanIt&gt;;
+<span style = "background-color:#fdd">    const _Diff _Top = _Hole;
+    _Diff _Idx       = _Hole;</span>
+
+    // Check whether _Idx can have a child before calculating that child's index, since
+    // calculating the child's index can trigger integer overflows
+<span style = "background-color:#fdd">    const _Diff _Max_sequence_non_leaf = (_Bottom - 1) &gt;&gt; 1; // shift for codegen
+    while (_Idx &lt; _Max_sequence_non_leaf) { // move _Hole down to larger child
+        _Idx = 2 * _Idx + 2;
+        if (_DEBUG_LT_PRED(_Pred, *(_First + _Idx), *(_First + (_Idx - 1)))) {
+            --_Idx;</span>
+        }
+<span style = "background-color:#fdd">        *(_First + _Hole) = _STD move(*(_First + _Idx));
+        _Hole             = _Idx;
+    }</span>
+
+<span style = "background-color:#fdd">    if (_Idx == _Max_sequence_non_leaf &amp;&amp; _Bottom % 2 == 0) { // only child at bottom, move _Hole down to it
+        *(_First + _Hole) = _STD move(*(_First + (_Bottom - 1)));
+        _Hole             = _Bottom - 1;</span>
+    }
+
+<span style = "background-color:#fdd">    _STD _Push_heap_by_index(_First, _Hole, _Top, _STD forward&lt;_Ty&gt;(_Val), _Pred);
+}</span>
+
+template &lt;class _RanIt, class _Ty, class _Pr&gt;
+<span style = "background-color:#fdd">_CONSTEXPR20 void _Pop_heap_hole_unchecked(_RanIt _First, _RanIt _Last, _RanIt _Dest, _Ty&amp;&amp; _Val, _Pr _Pred) {</span>
+    // pop *_First to *_Dest and reheap
+    // precondition: _First != _Last
+    // precondition: _First != _Dest
+<span style = "background-color:#fdd">    *_Dest      = _STD move(*_First);</span>
+    using _Diff = _Iter_diff_t&lt;_RanIt&gt;;
+<span style = "background-color:#fdd">    _STD _Pop_heap_hole_by_index(</span>
+        _First, static_cast&lt;_Diff&gt;(0), static_cast&lt;_Diff&gt;(_Last - _First), _STD forward&lt;_Ty&gt;(_Val), _Pred);
+<span style = "background-color:#fdd">}</span>
+
+template &lt;class _RanIt, class _Pr&gt;
+<span style = "background-color:#fdd">_CONSTEXPR20 void _Pop_heap_unchecked(_RanIt _First, _RanIt _Last, _Pr _Pred) {</span>
+    // pop *_First to *(_Last - 1) and reheap
+<span style = "background-color:#fdd">    if (2 &lt;= _Last - _First) {
+        --_Last;
+        _Iter_value_t&lt;_RanIt&gt; _Val(_STD move(*_Last));
+        _STD _Pop_heap_hole_unchecked(_First, _Last, _Last, _STD move(_Val), _Pred);
+    }
+}</span>
+
+_EXPORT_STD template &lt;class _RanIt, class _Pr&gt;
+_CONSTEXPR20 void pop_heap(_RanIt _First, _RanIt _Last, _Pr _Pred) {
+    // pop *_First to *(_Last - 1) and reheap
+    _STD _Adl_verify_range(_First, _Last);
+    _STD _Pop_heap_unchecked(_STD _Get_unwrapped(_First), _STD _Get_unwrapped(_Last), _STD _Pass_fn(_Pred));
+}
+
+_EXPORT_STD template &lt;class _RanIt&gt;
+_CONSTEXPR20 void pop_heap(_RanIt _First, _RanIt _Last) {
+    // pop *_First to *(_Last - 1) and reheap
+    _STD pop_heap(_First, _Last, less&lt;&gt;{});
+}
+
+template &lt;class _RanIt, class _Pr&gt;
+<span style = "background-color:#fdd">_CONSTEXPR20 void _Make_heap_unchecked(_RanIt _First, _RanIt _Last, _Pr _Pred) {</span>
+    // make [_First, _Last) into a heap
+    using _Diff   = _Iter_diff_t&lt;_RanIt&gt;;
+<span style = "background-color:#fdd">    _Diff _Bottom = _Last - _First;
+    for (_Diff _Hole = _Bottom &gt;&gt; 1; _Hole &gt; 0;) { // shift for codegen</span>
+        // reheap top half, bottom to top
+<span style = "background-color:#fdd">        --_Hole;
+        _Iter_value_t&lt;_RanIt&gt; _Val(_STD move(*(_First + _Hole)));
+        _STD _Pop_heap_hole_by_index(_First, _Hole, _Bottom, _STD move(_Val), _Pred);
+    }
+}</span>
+
+_EXPORT_STD template &lt;class _RanIt, class _Pr&gt;
+_CONSTEXPR20 void make_heap(_RanIt _First, _RanIt _Last, _Pr _Pred) { // make [_First, _Last) into a heap
+    _STD _Adl_verify_range(_First, _Last);
+    _STD _Make_heap_unchecked(_STD _Get_unwrapped(_First), _STD _Get_unwrapped(_Last), _STD _Pass_fn(_Pred));
+}
+
+_EXPORT_STD template &lt;class _RanIt&gt;
+_CONSTEXPR20 void make_heap(_RanIt _First, _RanIt _Last) { // make [_First, _Last) into a heap
+    _STD make_heap(_First, _Last, less&lt;&gt;{});
+}
+_STD_END
+
+#pragma pop_macro("new")
+_STL_RESTORE_CLANG_WARNINGS
+#pragma warning(pop)
+#pragma pack(pop)
+#endif // _STL_COMPILER_PREPROCESSOR
+#endif // __MSVC_HEAP_ALGORITHMS_HPP</pre>
+        <hr />
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th align="center">
+                        <small>Generated by</small>
+                        <a href="https://github.com/OpenCppCoverage/OpenCppCoverage/releases">
+                            <strong>OpenCppCoverage (Version: 0.9.9.0)</strong>
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </body>
+</html>
