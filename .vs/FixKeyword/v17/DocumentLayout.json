@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\FixKeyword\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordchecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\keywordchecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\logic_levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\logic_levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\keywordfixer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordfixer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E8F469-358A-45BD-AF0B-102090180A14}|FixKeyWordTests\\FixKeyWordTests.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyWordTests\\test_checkweekendday.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3E8F469-358A-45BD-AF0B-102090180A14}|FixKeyWordTests\\FixKeyWordTests.vcxproj|solutionrelative:FixKeyWordTests\\test_checkweekendday.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyWordTests\\test_checkweekendday.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyWordTests\\test_checkweekendday.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordchecker_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\keywordchecker_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordchecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\keywordchecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E8F469-358A-45BD-AF0B-102090180A14}|FixKeyWordTests\\FixKeyWordTests.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyWordTests\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3E8F469-358A-45BD-AF0B-102090180A14}|FixKeyWordTests\\FixKeyWordTests.vcxproj|solutionrelative:FixKeyWordTests\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyWordTests\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyWordTests\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordfixer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\keywordfixer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordfixer_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FixKeyword\\keywordfixer_interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,37 +76,11 @@
         },
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "config.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
-              "RelativeDocumentMoniker": "FixKeyword\\config.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
-              "RelativeToolTip": "FixKeyword\\config.h",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-22T07:02:07.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "keywordfixer.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp",
-              "RelativeDocumentMoniker": "FixKeyword\\keywordfixer.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp",
-              "RelativeToolTip": "FixKeyword\\keywordfixer.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T05:40:42.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "logic_levenshtein.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp",
               "RelativeDocumentMoniker": "FixKeyword\\logic_levenshtein.cpp",
@@ -114,8 +88,7 @@
               "RelativeToolTip": "FixKeyword\\logic_levenshtein.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T06:19:15.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T06:19:15.51Z"
             },
             {
               "$type": "Document",
@@ -125,14 +98,36 @@
               "RelativeDocumentMoniker": "FixKeyword\\keywordchecker.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp",
               "RelativeToolTip": "FixKeyword\\keywordchecker.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwDUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T07:07:40.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T07:07:40.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "keywordfixer.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp",
+              "RelativeDocumentMoniker": "FixKeyword\\keywordfixer.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp",
+              "RelativeToolTip": "FixKeyword\\keywordfixer.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T05:40:42.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "config.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
+              "RelativeDocumentMoniker": "FixKeyword\\config.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
+              "RelativeToolTip": "FixKeyword\\config.h",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T07:02:07.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "util.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\util.cpp",
               "RelativeDocumentMoniker": "FixKeyword\\util.cpp",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "FixKeyword\\util.cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T05:31:04.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T05:31:04.97Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "FixKeyword\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T05:08:05.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T05:08:05.769Z"
             }
           ]
         },
@@ -164,16 +157,14 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "logic_manager.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp",
               "RelativeDocumentMoniker": "FixKeyword\\logic_manager.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp",
               "RelativeToolTip": "FixKeyword\\logic_manager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T06:30:46.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T06:30:46.969Z"
             },
             {
               "$type": "Document",
@@ -185,8 +176,7 @@
               "RelativeToolTip": "FixKeyWordTests\\test_checkweekendday.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T06:54:50.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T06:54:50.804Z"
             },
             {
               "$type": "Document",
@@ -198,8 +188,7 @@
               "RelativeToolTip": "FixKeyword\\keywordchecker_interface.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-22T05:48:22.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T05:48:22.096Z"
             },
             {
               "$type": "Document",
@@ -211,8 +200,7 @@
               "RelativeToolTip": "FixKeyword\\keywordchecker.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-22T05:50:30.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T05:50:30.036Z"
             },
             {
               "$type": "Document",
@@ -224,8 +212,7 @@
               "RelativeToolTip": "FixKeyWordTests\\test_main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T06:54:50.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T06:54:50.272Z"
             },
             {
               "$type": "Document",
@@ -237,8 +224,7 @@
               "RelativeToolTip": "FixKeyword\\keywordfixer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-22T05:39:02.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T05:39:02.757Z"
             },
             {
               "$type": "Document",
@@ -250,8 +236,7 @@
               "RelativeToolTip": "FixKeyword\\keywordfixer_interface.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-22T05:34:55.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T05:34:55.493Z"
             }
           ]
         }
