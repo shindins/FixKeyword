@@ -22,9 +22,9 @@ const int MaxWeekendSize = 2;
 
 const int searchDBSize = 10;
 const int MaxIntSize = 2100000000;
-const double weightScore = 0.1;
+const double WeightScore = 0.1;
 
-int uzScore = 10;
+inline int uzScore = 10;
 
 
 #endif // !KEYWORD_CONFIG_H_
