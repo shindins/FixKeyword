@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\FixKeyword\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\keywordchecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\logic_levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|solutionrelative:FixKeyword\\logic_manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB241CC1-D18E-447B-AC27-367D33F7C232}|FixKeyword\\FixKeyword.vcxproj|C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordfixer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -76,19 +76,32 @@
         },
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "config.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
-              "RelativeDocumentMoniker": "FixKeyword\\config.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
-              "RelativeToolTip": "FixKeyword\\config.h",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-22T07:02:07.402Z",
+              "DocumentIndex": 3,
+              "Title": "logic_levenshtein.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp",
+              "RelativeDocumentMoniker": "FixKeyword\\logic_levenshtein.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp",
+              "RelativeToolTip": "FixKeyword\\logic_levenshtein.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T06:19:15.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "keywordchecker.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp",
+              "RelativeDocumentMoniker": "FixKeyword\\keywordchecker.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp",
+              "RelativeToolTip": "FixKeyword\\keywordchecker.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T07:07:40.622Z",
               "EditorCaption": ""
             },
             {
@@ -106,38 +119,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "config.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
+              "RelativeDocumentMoniker": "FixKeyword\\config.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\config.h",
+              "RelativeToolTip": "FixKeyword\\config.h",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T07:02:07.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "logic_levenshtein.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp",
-              "RelativeDocumentMoniker": "FixKeyword\\logic_levenshtein.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_levenshtein.cpp",
-              "RelativeToolTip": "FixKeyword\\logic_levenshtein.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T06:19:15.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "keywordchecker.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp",
-              "RelativeDocumentMoniker": "FixKeyword\\keywordchecker.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\keywordchecker.cpp",
-              "RelativeToolTip": "FixKeyword\\keywordchecker.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwDUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T07:07:40.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "util.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\util.cpp",
               "RelativeDocumentMoniker": "FixKeyword\\util.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\util.cpp*",
-              "RelativeToolTip": "FixKeyword\\util.cpp*",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\util.cpp",
+              "RelativeToolTip": "FixKeyword\\util.cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-22T05:31:04.97Z",
@@ -164,7 +164,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "logic_manager.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FixKeyword\\FixKeyword\\logic_manager.cpp",
               "RelativeDocumentMoniker": "FixKeyword\\logic_manager.cpp",
